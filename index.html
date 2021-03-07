@@ -53,11 +53,12 @@
 
             return rgb;
         }
-        document.documentElement.style.setProperty('--theme-color', '#ec3835');
-        document.documentElement.style.setProperty('--theme-color-light', '#ec383526');
-        document.documentElement.style.setProperty('--theme-color-dark1', ColorLuminance('#ec3835', -0.20));
-        document.documentElement.style.setProperty('--theme-color-dark2', ColorLuminance('#ec3835', -0.40));
-        document.documentElement.style.setProperty('--theme-color-dark3', ColorLuminance('#ec3835', -0.60));
+        document.documentElement.style.setProperty('--theme-color', '#7986cb');
+        document.documentElement.style.setProperty('--theme-color-light', '#1a237e');
+        document.documentElement.style.setProperty('--theme-color-dark1', '#5c6bc0');
+        document.documentElement.style.setProperty('--theme-color-dark2', '#3f51b5');
+        document.documentElement.style.setProperty('--theme-color-dark3', '#3949ab');
+        document.documentElement.style.setProperty('--theme-color-darkest', '#1a237e');
     </script>
 </head>
 <body>
@@ -65,12 +66,12 @@
     <div class="corner"></div>
     <div class="upper">
         <!-- User Profile Pic -->
-        <img src="https://vcard-bucket.s3.us-east-2.amazonaws.com/link-connect/1585901910030.jpeg" class="profile-pic-img">
+        <img src="images/metro%20cares.jpg" class="profile-pic-img">
         <!-- User Company Name -->
         <div class="firmname">Metro Cares</div>
-        <div style="width: 40%;background-color: #ec3835;height:2px;margin-bottom: 10px;"></div>
+        <div style="width: 40%;background-color: var(--theme-color);height:2px;margin-bottom: 10px;"></div>
         <!-- User First Name and Last Name -->
-        <div class="name">Ravish Kalra</div>
+        <div class="name"><strong>Ravish Kalra</strong></div>
         <div class="contact-buttons">
             <a class="contact-button" href="tel:9818375806">
                 <i class="fas fa-phone fa-flip-horizontal"></i>
@@ -146,7 +147,7 @@
 <div class="section-container" id="about-us-section">
     <div class="corner"></div>
     <h2 class="section-header">About Us</h2>
-    <div style="width: 20%; background-color: #ec3835; height:2px; margin: 0 auto; margin-bottom: 20px;"></div>
+    <div style="width: 20%; background-color: var(--theme-color); height:2px; margin: 0 auto; margin-bottom: 20px;"></div>
     <table class="about-us-table">
         <tbody>
         <tr>
@@ -194,7 +195,7 @@
 <div class="section-container" id="our-specialities-section">
     <div class="corner"></div>
     <h2 class="section-header">Our Services</h2>
-    <div style="width: 20%; background-color: #ec3835; height:2px; margin: 0 auto; margin-bottom: 20px;"></div>
+    <div style="width: 20%; background-color: var(--theme-color); height:2px; margin: 0 auto; margin-bottom: 20px;"></div>
     <ul class="unorderedList">
 
         <li><strong>New and Used Car Loan</strong>

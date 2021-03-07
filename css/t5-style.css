@@ -338,10 +338,10 @@ strong, b {
 /* Section CSS Starts */
 .page-wrapper {
     background: #fff;
-    border-left: 15px solid #303030;
+    border-left: 15px solid var(--theme-color-darkest);
     box-shadow: 1px 2px 15px #48484833;
     position: relative;
-    border-right: 15px solid #303030;
+    border-right: 15px solid var(--theme-color-darkest);
 }
 .section-header {
     color: var(--theme-color);
@@ -362,8 +362,8 @@ strong, b {
     background: #fff;
     /* overflow: hidden; */
     word-break: break-word;
-    border-left: 15px solid #303030;
-    border-right: 15px solid #303030;
+    border-left: 15px solid var(--theme-color-darkest);
+    border-right: 15px solid var(--theme-color-darkest);
 }
 
 .section-container .corner {
