@@ -161,7 +161,7 @@ strong, b {
     margin-right: 5px;
     margin-bottom: 10px;
     border: 1px solid var(--theme-color);
-    background-color: var(--theme-color);
+    background-color: var(--theme-color-dark2);
 }
 
 .contact-button i {
@@ -179,7 +179,7 @@ strong, b {
 
 .contact-action-table tr:nth-child(even) .trapezoid {
     border-bottom: 30px solid transparent;
-    border-right: 60px solid var(--theme-color);;
+    border-right: 60px solid var(--theme-color-dark2);;
     border-top: 30px solid transparent;
     height: 40px;
     width: 0;
@@ -190,28 +190,28 @@ strong, b {
 
 .contact-action-table tr:nth-child(odd) .trapezoid {
     border-bottom: 30px solid transparent;
-    border-left: 60px solid var(--theme-color);;
+    border-left: 60px solid var(--theme-color-dark2);;
     border-top: 30px solid transparent;
     height: 40px;
     width: 0;
     position: relative;
 }
 
-.contact-action-table tr:nth-child(1) .trapezoid {
-    border-left-color: var(--theme-color);
-}
+/*.contact-action-table tr:nth-child(1) .trapezoid {*/
+/*    border-left-color: var(--theme-color);*/
+/*}*/
 
-.contact-action-table tr:nth-child(2) .trapezoid {
-    border-right-color: var(--theme-color-dark1);
-}
+/*.contact-action-table tr:nth-child(2) .trapezoid {*/
+/*    border-right-color: var(--theme-color-dark1);*/
+/*}*/
 
-.contact-action-table tr:nth-child(3) .trapezoid {
-    border-left-color: var(--theme-color-dark2);
-}
+/*.contact-action-table tr:nth-child(3) .trapezoid {*/
+/*    border-left-color: var(--theme-color-dark2);*/
+/*}*/
 
-.contact-action-table tr:nth-child(4) .trapezoid {
-    border-right-color: var(--theme-color-dark3);
-}
+/*.contact-action-table tr:nth-child(4) .trapezoid {*/
+/*    border-right-color: var(--theme-color-dark3);*/
+/*}*/
 
 .contact-action-container-icon {
     display: inline-flex;
@@ -221,7 +221,7 @@ strong, b {
     height: 30px;
     text-align: center;
     line-height: 30px;
-    color: var(--theme-color);
+    color: var(--theme-color-dark2);
     background-color: #ffffff;
     font-size: 16px;
     border-radius: 50%;
